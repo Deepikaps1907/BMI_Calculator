@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 2rem;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.input-with-unit {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input[type="number"] {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+select {
+    width: 80px;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff;
+}
+
+.gender-options {
+    display: flex;
+    gap: 1rem;
+}
+
+.gender-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.result strong {
+    color: #007bff;
+}
